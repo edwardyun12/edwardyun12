@@ -14,9 +14,21 @@ Final-year BSc Software Engineering student at Bournemouth University (predicted
 
 ---
 
-### 🚀 Featured Project
+### 🚀 Featured Projects
 
-* [**Nexus**](링크) — A voice-first AI agent that manages a real job tracker through conversation, backed by [**job-tracker-mcp**](링크), a Model Context Protocol server built from scratch.
+* [**Nexus**](https://github.com/edwardyun12/nexus-ai) — **Voice-First AI Agent for Job Tracking**  
+  *`React` `TypeScript` `Node.js` `Groq (Llama 3.3 70B)` `MCP` `Web Speech API`*
+  * Built a voice-driven AI agent executing autonomous tool-calling via a custom-built Model Context Protocol (MCP) server to manage job applications on Notion.
+  * Deployed a production-ready public demo featuring a self-cleaning sandbox reseeded every 30 minutes, IP rate-limiting, and timing-safe key comparison.
+
+* [**job-tracker-mcp**](https://github.com/edwardyun12/job-tracker-mcp) — **Model Context Protocol (MCP) Server for Job Management**  
+  *`TypeScript` `Model Context Protocol` `Notion API` `Node.js`*
+  * Engineered a lightweight, open-source MCP server exposing 3 typed tools (`add`, `list`, `update`) enabling LLM clients (Claude Desktop, custom agents) to seamlessly manage job application workflows.
+
+* [**Developer Portfolio**](https://edwardyun12.github.io) — **Personal Portfolio & Engineering Showcase**  
+  *`React` `TypeScript` `Tailwind CSS` `GitHub Pages` `dev.to API`*
+  * Designed and deployed a responsive, high-performance portfolio website showcasing software engineering projects and technical blog posts.
+  * Integrated dev.to API to dynamically aggregate published technical articles and optimized SEO and web performance metrics.
 
 ---
 
