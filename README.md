@@ -30,6 +30,10 @@ Final-year BSc Software Engineering student at Bournemouth University (predicted
   * Designed and deployed a responsive, high-performance portfolio website showcasing software engineering projects and technical blog posts.
   * Integrated dev.to API to dynamically aggregate published technical articles and optimized SEO and web performance metrics.
 
+* [**AI Dubbing Web App**](https://github.com/edwardyun12/ai-dubbing-web-app) — **Full-Stack AI Voice Translation & Dubbing Platform**  
+  *`TypeScript` `React` `FastAPI` `Python` `AI Audio Models`*
+  * Developed an end-to-end web application that automates multilingual video/audio translation and voice cloning for seamless dubbing workflows.
+  * Integrated speech recognition (STT), machine translation, and neural text-to-speech (TTS) pipelines to deliver synchronized multilingual audio outputs.
 ---
 
 ### 🛠️ Skills
