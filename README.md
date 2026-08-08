@@ -41,22 +41,22 @@ I build scalable backend architecture and production-grade AI systems (RAG pipel
 
 ### 🚀 Featured Projects
 
-#### 🎙️ [Nexus — Voice-First AI Agent for Job Tracking](https://github.com/edwardyun12/nexus-ai) `[Live Demo Available]`
+#### 🎙️ [Nexus — Voice-First AI Agent for Job Tracking](https://github.com/edwardyun12/nexus-ai) `[Live Demo]`
 *`React` `TypeScript` `Node.js` `Groq (Llama 3.3 70B)` `Model Context Protocol (MCP)` `Web Speech API`*
-* Built an autonomous voice agent utilizing a custom Model Context Protocol (MCP) server exposing 3 typed tools (`add`, `list`, `update` via Notion API) triggered seamlessly from spoken input.
-* Engineered for production security with IP-based daily rate-limiting, timing-safe API key comparison, and an isolated sandbox environment reseeded every 30 minutes.
+* **Architecture:** Consumes [`job-tracker-mcp`](https://github.com/edwardyun12/job-tracker-mcp) as its core backend engine to execute autonomous voice-driven tool calling via Notion API.
+* **Production Engineering:** Built with per-IP daily rate-limiting, timing-safe API key comparison, and an isolated sandbox environment reseeded every 30 minutes for zero-setup live testing.
 
 #### ⚙️ [job-tracker-mcp — Open-Source MCP Server](https://github.com/edwardyun12/job-tracker-mcp)
 *`TypeScript` `Model Context Protocol` `Notion API` `Node.js`*
-* Developed an open-source MCP server that enables LLM clients (Claude Desktop, local AI agents) to perform structured job application management via typed JSON-RPC interfaces.
+* **Backend Module:** Standalone, decoupled MCP server powering the **Nexus AI Agent** (also compatible with Claude Desktop), exposing 3 typed tools (`add`, `list`, `update`) via JSON-RPC.
 
 #### 🌐 [Developer Portfolio & Engineering Showcase](https://edwardyun12.github.io)
 *`React` `TypeScript` `Tailwind CSS` `GitHub Pages` `dev.to API`*
-* Created a responsive personal showcase integrating dev.to REST API for live technical article aggregation, optimized for web performance and ATS/SEO discovery.
+* Created a responsive personal showcase integrating dev.to REST API for live technical article aggregation, optimized for web performance (Lighthouse 95+) and ATS/SEO discovery.
 
 #### 🎙️ [AI Dubbing Web App](https://github.com/edwardyun12/ai-dubbing-web-app)
-*`Python` `FastAPI` `React` `TypeScript` `AI Audio Models`*
-* Full-stack automated video/audio translation pipeline integrating Speech-to-Text (STT), Neural Machine Translation, and Neural Voice Cloning for synchronized dubbing.
+*`Python` `FastAPI` `React` `TypeScript` `Whisper` `TTS`*
+* Full-stack AI voice translation and dubbing service built specifically for **Korean localization workflows**, reducing end-to-end processing latency to **<30s for 3-minute video/audio inputs** by optimizing asynchronous chunking across STT, Korean Neural Machine Translation, and Neural Voice Cloning pipelines.
 
 ---
 
