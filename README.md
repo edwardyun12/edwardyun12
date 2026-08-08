@@ -30,12 +30,12 @@ I build scalable backend architecture and production-grade AI systems (RAG pipel
   * Designed an ontology-based Knowledge Graph modeled on **Palantir's Ontology framework** to encode domain relationships, resolving multi-hop retrieval failures inherent in pure vector search.
   * Shipped a 2-stage LLM query classification pipeline across 21 business domains, reaching **93.24% accuracy (Macro F1 0.94)** using Claude Haiku on AWS Bedrock.
 
+* **Squad Leader, Sergeant (Mandatory Military Service)** @ Republic of Korea Army `Sep 2024 – Mar 2026`
+  * Led 8+ personnel managing tactical communications infrastructure; earned Company Commander's Commendation during KCTC field exercises for high-availability operational excellence.
+
 * **Associate Software Engineer (Industrial Placement)** @ [Vitality](https://www.vitality.co.uk/) *(UK Health & Life Insurer)* `Jul 2023 – Jul 2024`
   * Contributed to a production migration from legacy REST APIs to **GraphQL backend services (NestJS, TypeScript)** within a Scaled Agile Framework (SAFe) team, optimizing network payload delivery.
   * Developed an internal React testing tool that automated endpoint extraction from OpenAPI specifications, adopted across multiple engineering teams to streamline test workflows.
-
-* **Squad Leader, Sergeant (Mandatory Military Service)** @ Republic of Korea Army `Sep 2024 – Mar 2026`
-  * Led 8+ personnel managing tactical communications infrastructure; earned Company Commander's Commendation during KCTC field exercises for high-availability operational excellence.
 
 ---
 
@@ -43,20 +43,24 @@ I build scalable backend architecture and production-grade AI systems (RAG pipel
 
 #### 🎙️ [Nexus — Voice-First AI Agent for Job Tracking](https://github.com/edwardyun12/nexus-ai) `[Live Demo]`
 *`React` `TypeScript` `Node.js` `Groq (Llama 3.3 70B)` `Model Context Protocol (MCP)` `Web Speech API`*
-* **Architecture:** Consumes [`job-tracker-mcp`](https://github.com/edwardyun12/job-tracker-mcp) as its core backend engine to execute autonomous voice-driven tool calling via Notion API.
-* **Production Engineering:** Built with per-IP daily rate-limiting, timing-safe API key comparison, and an isolated sandbox environment reseeded every 30 minutes for zero-setup live testing.
+* **Service:** A voice-driven Web AI Agent that automates job search application tracking through natural spoken commands instead of manual form entry.
+* **Architecture:** Consumes [`job-tracker-mcp`](https://github.com/edwardyun12/job-tracker-mcp) as its backend tool-calling engine, leveraging Groq (Llama 3.3 70B) for autonomous execution over Notion API.
+* **Engineering Highlights:** Built with per-IP daily rate-limiting, timing-safe API key comparison, and an isolated sandbox environment reseeded every 30 minutes for zero-setup public testing.
 
 #### ⚙️ [job-tracker-mcp — Open-Source MCP Server](https://github.com/edwardyun12/job-tracker-mcp)
 *`TypeScript` `Model Context Protocol` `Notion API` `Node.js`*
-* **Backend Module:** Standalone, decoupled MCP server powering the **Nexus AI Agent** (also compatible with Claude Desktop), exposing 3 typed tools (`add`, `list`, `update`) via JSON-RPC.
+* **Service:** An open-source Model Context Protocol (MCP) server that enables LLMs to query, log, and update job application statuses in Notion.
+* **Architecture:** Standalone, decoupled JSON-RPC backend server powering **Nexus** (and fully compatible with Claude Desktop), exposing 3 typed tools (`add`, `list`, `update`).
 
 #### 🌐 [Developer Portfolio & Engineering Showcase](https://edwardyun12.github.io)
 *`React` `TypeScript` `Tailwind CSS` `GitHub Pages` `dev.to API`*
-* Created a responsive personal showcase integrating dev.to REST API for live technical article aggregation, optimized for web performance (Lighthouse 95+) and ATS/SEO discovery.
+* **Service:** A responsive personal portfolio website designed to showcase software engineering projects and technical writing to recruiters.
+* **Engineering Highlights:** Integrated dev.to REST API for live technical article aggregation, optimized for web performance (Lighthouse 95+) and ATS/SEO discovery.
 
 #### 🎙️ [AI Dubbing Web App](https://github.com/edwardyun12/ai-dubbing-web-app)
 *`Python` `FastAPI` `React` `TypeScript` `Whisper` `TTS`*
-* Full-stack AI voice translation and dubbing service built specifically for **Korean localization workflows**, reducing end-to-end processing latency to **<30s for 3-minute video/audio inputs** by optimizing asynchronous chunking across STT, Korean Neural Machine Translation, and Neural Voice Cloning pipelines.
+* **Service:** A full-stack web application that automates multilingual video/audio translation and neural voice cloning for Korean video content localization.
+* **Performance:** Reduced end-to-end processing latency to **<30s for 3-minute media files** by optimizing asynchronous chunking across STT, Korean NMT, and Neural Voice Cloning pipelines.
 
 ---
 
