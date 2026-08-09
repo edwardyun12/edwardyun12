@@ -58,9 +58,10 @@ I build scalable backend architecture and production-grade AI systems (RAG pipel
 * **Engineering Highlights:** Integrated dev.to REST API for live technical article aggregation, optimized for web performance (Lighthouse 95+) and ATS/SEO discovery.
 
 #### 🎙️ [AI Dubbing Web App](https://github.com/edwardyun12/ai-dubbing-web-app)
-*`Python` `FastAPI` `React` `TypeScript` `Whisper` `TTS`*
-* **Service:** A full-stack web application that automates multilingual video/audio translation and neural voice cloning for Korean video content localization.
-* **Performance:** Reduced end-to-end processing latency to **<30s for 3-minute media files** by optimizing asynchronous chunking across STT, Korean NMT, and Neural Voice Cloning pipelines.
+*`Next.js` `TypeScript` `React` `ElevenLabs API` `Google Translate API` `Turso` `NextAuth`*
+* **Service:** A web app that dubs an uploaded audio or video file into a chosen language — transcription and voice synthesis via the ElevenLabs API, translation via the Google Translate API. Built as a take-home technical assessment for an AI Translation DevRel internship application.
+* **Engineering Highlights:** In-browser audio/video cropping via `ffmpeg.wasm` to keep uploads within API size limits before they ever hit the server; Google OAuth with a Turso-backed email whitelist to gate access and control third-party API cost exposure; automatic Vercel deployment on every push to `main`.
+
 
 ---
 
