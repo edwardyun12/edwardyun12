@@ -53,9 +53,9 @@ I build scalable backend architecture and production-grade AI systems (RAG pipel
 * **Architecture:** Standalone, decoupled JSON-RPC backend server powering **Nexus** (and fully compatible with Claude Desktop), exposing 3 typed tools (`add`, `list`, `update`).
 
 #### 🌐 [Developer Portfolio & Engineering Showcase](https://edwardyun12.github.io)
-*`React` `TypeScript` `Tailwind CSS` `GitHub Pages` `dev.to API`*
-* **Service:** A responsive personal portfolio website designed to showcase software engineering projects and technical writing to recruiters.
-* **Engineering Highlights:** Integrated dev.to REST API for live technical article aggregation, optimized for web performance (Lighthouse 95+) and ATS/SEO discovery.
+*`React` `TypeScript` `Tailwind CSS` `GitHub Pages`*
+* **Service:** A responsive personal portfolio website showcasing software engineering projects, experience, and technical writing to recruiters.
+* **Engineering Highlights:** Custom-built (no template) with an interactive case-study explorer for the RAG project — pipeline stages, live tool screenshots, and drill-down insight steps — rather than a static project list.
 
 #### 🎙️ [AI Dubbing Web App](https://github.com/edwardyun12/ai-dubbing-web-app)
 *`Next.js` `TypeScript` `React` `ElevenLabs API` `Google Translate API` `Turso` `NextAuth`*
